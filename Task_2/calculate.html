@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Простой калькулятор</title>
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- добавляем элементы -->
+<div class="container">
+    <!-- контейнер калькулятора -->
+    <fieldset id="container">
+      <!-- общая форма -->
+      <form name="calculator">
+
+        <!-- элемент дисплея калькулятора -->
+        <input id="display" type="text" name="display" readonly>
+
+        <!-- кнопки верхнего ряда -->
+        <!-- кнопка с цифрой 7 -->
+        <input class="button digits" type="button" value="7">
+        <!-- кнопка с цифрой 8 -->
+        <input class="button digits" type="button" value="8">
+        <!-- кнопка с цифрой 9 -->
+        <input class="button digits" type="button" value="9">
+        <!-- кнопка сложения -->
+        <input class="button mathButtons" type="button" value="+">
+        <br />
+
+        <!-- кнопки среднего ряда -->
+        <!-- кнопка с цифрой 4 -->
+        <input class="button digits" type="button" value="4">
+        <!-- кнопка с цифрой 5 -->
+        <input class="button digits" type="button" value="5">
+        <!-- кнопка с цифрой 6 -->
+        <input class="button digits" type="button" value="6">
+        <!-- кнопка вычитания -->
+        <input class="button mathButtons" type="button" value="-">
+        <br />
+
+        <!-- кнопки нижнего ряда -->
+        <!-- кнопка с цифрой 1 -->
+        <input class="button digits" type="button" value="1">
+        <!-- кнопка с цифрой 2 -->
+        <input class="button digits" type="button" value="2">
+        <!-- кнопка с цифрой 3 -->
+        <input class="button digits" type="button" value="3">
+        <!-- кнопка умножения -->
+        <input class="button mathButtons" type="button" value="*">
+        <br />
+
+        <!-- кнопки подвала -->
+        <!-- кнопка сброса -->
+        <input id="clearButton" class="button" type="button" value="C">
+        <!-- кнопка с цифрой 0 -->
+        <input class="button digits" type="button" value="0">
+        <!-- кнопка удаления одного символа-->
+        <input class="button digits" type="button" value= ⌫>
+        <!-- кнопка деления / -->
+        <input class="button mathButtons" type="button" value="/">
+        <br />
+
+        <!-- кнопка математического оператора «равно» -->
+        <input id= "ButtonEqually" class="ButtonEqually" type="button" value="=">
+      </form>
+    </fieldset>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
